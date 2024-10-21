@@ -1,35 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-<link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="./signup.js" defer></script>
 </head>
 <body>
-    <div class="login-form">
-        <h1>Login</h1>
-        <div class="container">
-            <div class="main">
-                <div class="content">
-                    <h2>Log In</h2>
-                    <form action="#" method="post">
-                        <input type="text" name="" placeholder="User Name" required autofocus="">
-                        <input type="password" name="" placeholder="User Password" required autofocus="">
-                         <button class="btn" type="submit">
-                            Login
-                         </button>
-
-                    </form>
-                    <p class="account">Don't Have An Account? <a href="#">Register</a></p>
-                     
-                </div>
-                <div class="form-img">
-                    <img src="Preview.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+    <section>
+        <form>
+            <h1>Login</h1>
+               <div class="inputbox">
+                <ion-icon name="person-outline"></ion-icon>
+                <input type="text">
+                <label>Name</label>
+               </div>
+               <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email">
+                <label for="">Email</label>
+               </div>
+               <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password">
+                <label for="">Password</label>
+               </div>
+               <button>Login</button>
+                <p>Dont have an account? <a style="color: darkblue;" href="register.html">Register</a></p>
+               </div>
+        </form>
+        </section>
+    </body>
+    </html>
